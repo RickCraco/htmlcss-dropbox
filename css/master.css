@@ -1,0 +1,136 @@
+/*General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.debug{
+    border: 2px solid red;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.jumbo{
+    width: 100%;
+}
+
+/* Flex utility */
+
+.flex-row{
+    display: flex;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.align-items{
+    align-items: center;
+    align-content: center;
+}
+
+.flex-gap{
+    gap: 20px;
+}
+
+.position-relative{
+    position: relative;
+    top: 60px;
+}
+
+/* header */
+
+.hero{
+    position: relative;
+}
+
+header{
+    background-color: #b8d1e5;
+}
+
+nav{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+.inizia{
+    margin-right: 20px;
+    padding: 5px 6px;
+    background-color: rgb(45, 41, 255);
+    color: white;
+}
+
+h1{
+    margin-top: 20px;
+    font-size: 80px;
+}
+
+.prova-gratuita{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(45, 41, 255);
+    color: white;
+    padding: 5px 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header i{
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* main */
+
+.card-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fatt-mensile{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.fatt-annuale{
+    display: inline-block;
+}
+
+.first-section{
+    margin-top: 70px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.card{
+    width: calc(100% / 3);
+}
+
+.center-word{
+    text-align: center;
+}
