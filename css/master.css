@@ -1,5 +1,4 @@
 /*General */
-
 *{
     margin: 0;
     padding: 0;
@@ -282,6 +281,23 @@ h5{
 
 .quadrado p{
     margin-top: 100px;
+}
+
+.call-to-action{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #B4D0E7;
+}
+
+.button-call{
+    background-color: white;
+    text-align: center;
+    padding: 5px 7px;
+}
+
+.call-to-action h2{
+    color: #61082B;
+    margin-bottom: 0;
 }
 
 /* Footer */
