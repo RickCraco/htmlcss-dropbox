@@ -7,9 +7,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.debug{
-    border: 2px solid red;
+.padding-right{
+    padding-right: 70px;
 }
+
+.padding-total{
+    padding: 30px;
+}
+
+/*.debug{
+    border: 2px solid red;
+}*/
 
 .container{
     width: 1200px;
@@ -227,11 +235,117 @@ h5{
 
 .img-box{
     width: 70%;
-    text-align: center;
     margin-bottom: 20px;
 }
 
 .partner-div{
+    padding: 50px 50px 0 0;
+}
+
+.div-faq{
+    border-top: 1px solid black;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div-faq:nth-child(3){
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.div-faq p{
+    font-weight: bold;
+}
+
+.quadrado{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.quadrado-interno{
+    width: calc(100% / 2);
     position: relative;
-    bottom: -50px;
+}
+
+.img-quadratone{
+    width: 40%;
+}
+
+.img-quadradi{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    filter: invert(93%) sepia(100%) saturate(29%) hue-rotate(136deg) brightness(107%) contrast(110%);
+}
+
+.quadrado p{
+    margin-top: 100px;
+}
+
+/* Footer */
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+}
+
+footer h4{
+    padding-bottom: 30px;
+}
+
+footer li{
+    padding-bottom: 20px;
+}
+
+footer .div-underline{
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+}
+
+footer select{
+    background: none;
+    border: none;
+    color: white;
+}
+
+/* Colori quadrati */
+
+#designit{
+    background-color: #A2D39B;
+}
+
+#asu{
+    background-color: #61082B;
+}
+
+#florida{
+    background-color:  #0093CE;
+}
+
+#topps{
+    background-color: red;
+}
+
+#bici{
+    background-color: rgb(201, 25, 25);
+}
+
+#hearst{
+    background-color: #B4D0E7;
+}
+
+#planet{
+    background-color:  #0D2481;
+}
+
+#channel{
+    background-color: #FFD830;
+}
+
+#quadrato-cent{
+    background-color: #F5F5F5;
 }
