@@ -81,14 +81,19 @@ ul{
 
 header{
     background-color: #b8d1e5;
+    margin-top: 80px;
 }
 
 nav{
-    /*position: fixed;*/
+    position: fixed;
     padding-top: 40px;
     padding-bottom: 10px;
     background-color: white;
-    /*z-index: 10000;*/
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
 }
 
 .logo{
@@ -187,6 +192,13 @@ h5{
 
 .div-icona{
     margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+}
+
+.flex-baseline{
+    display: flex;
+    align-items: baseline;
 }
 
 .button-prova{
